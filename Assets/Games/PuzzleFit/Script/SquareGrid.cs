@@ -3,6 +3,7 @@ using DG.Tweening;
 using System.Collections.Generic;
 using TriInspector;
 using UnityEngine;
+using static UnityEditor.Progress;
 
 namespace BoardFit
 {
@@ -35,6 +36,12 @@ namespace BoardFit
         [SerializeField]
         List<ColorStyle> colors;
 
+        [Header("Renderer")]
+        [SerializeField]
+        int bonusRenderer = 10;
+        [SerializeField]
+        List<SpriteRenderer> allRenderer;
+
         public Vector2Int Coord { get; set; }
 
         private void Start()
@@ -42,6 +49,15 @@ namespace BoardFit
             if (applyDefaultStyle)
             {
                 SetStyle(defaultSyle);
+            }
+        }
+
+        public void SetBonusRenderer(int bonus)
+        {
+            bonusRenderer = bonus - bonusRenderer;
+            foreach (var renderer in allRenderer)
+            {
+                renderer.sortingOrder += bonus;
             }
         }
 
@@ -81,6 +97,12 @@ namespace BoardFit
                     DestroyImmediate(target);
                 }
             }
+        }
+
+        public void DestroySelf() 
+        {
+            TransformSpring.enabled = false;
+            transform.DOScale(Vector3.zero, 0.25f).OnComplete(() => Destroy(gameObject));
         }
     }
 }

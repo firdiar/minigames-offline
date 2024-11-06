@@ -110,6 +110,11 @@ MonoBehaviour:
   applyDefaultStyle: 0
   defaultSyle: 0
   colors: []
+  bonusRenderer: 0
+  allRenderer:
+  - {fileID: 7535802524122687616}
+  - {fileID: 4210433481953610196}
+  - {fileID: 7068949086244361452}
 --- !u!1 &2979828359269371359
 GameObject:
   m_ObjectHideFlags: 0

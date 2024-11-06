@@ -43,6 +43,7 @@ namespace BoardFit
             foreach (var grid in grids)
             {
                 grid.SetStyle(0);
+                grid.SetBonusRenderer(20);
             }
         }
 
@@ -55,6 +56,7 @@ namespace BoardFit
             foreach (var grid in grids)
             {
                 grid.SetStyle(0);
+                grid.SetBonusRenderer(10);
             }
         }
 
@@ -67,6 +69,8 @@ namespace BoardFit
             foreach (var grid in grids)
             {
                 grid.SetStyle(1);
+
+                grid.SetBonusRenderer(40);
             }
         }
 
@@ -130,7 +134,7 @@ namespace BoardFit
                 if (Application.isPlaying)
                 {
                     item.TransformSpring.enabled = false;
-                    item.transform.DOScale(Vector3.zero, 0.2f).OnComplete(() => Destroy(item.gameObject));
+                    item.DestroySelf();
                 }
                 else
                 {

@@ -24,11 +24,11 @@ namespace BoardFit
         private async void Start()
         {
             await Task.Delay(1000);
-            SpawnPuzzle();
+            await SpawnPuzzle();
         }
 
         [Button]
-        public async void SpawnPuzzle() 
+        public async Task SpawnPuzzle() 
         {
             ActiveGenerator.Clear();
             var mainCam = Camera.main;
@@ -42,7 +42,7 @@ namespace BoardFit
 
                 generator.Generate( 0.4f , 0.4f ,GetRandom());
 
-                await Task.Delay(500);
+                await Task.Delay(200);
             }
         }
 
@@ -56,7 +56,7 @@ namespace BoardFit
             board.Hover(position, coords, out _);
         }
 
-        public void TryPushPuzzle(Vector3 position, PuzzleGenerator puzzle)
+        public async void TryPushPuzzleAsync(Vector3 position, PuzzleGenerator puzzle)
         {
             var idx = ActiveGenerator.FindIndex(item => item == puzzle);
             if (board.Hover(position, puzzle.Structure, out var coord))
@@ -80,17 +80,33 @@ namespace BoardFit
                 if (item != null) puzzleCount++;
             }
 
+            board.CheckComplete();
+
             if (puzzleCount == 0)
             {
-                SpawnPuzzle();
+                await SpawnPuzzle();
             }
-
             CheckGameOver();
         }
 
         private void CheckGameOver() 
         {
-            Debug.Log("Check GameOver");
+            bool isGameOver = true;
+            foreach(var item in ActiveGenerator)
+            {
+                if(item == null) continue;
+
+                if(board.IsAnySpaceAvailable(item))
+                {
+                    isGameOver = false;
+                    break;
+                }
+            }
+
+            if (isGameOver)
+            { 
+                
+            }
         }
     }
 }

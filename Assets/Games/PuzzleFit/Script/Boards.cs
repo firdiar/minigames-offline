@@ -108,6 +108,7 @@ namespace BoardFit
                     Debug.LogError("This should never happen!");
                 }
 
+                item.Coord = finalCoord;
                 FilledCoordinates.Add(finalCoord, item);
 
                 item.transform.SetParent(null);
@@ -127,6 +128,148 @@ namespace BoardFit
             }
             Destroy(puzzle.gameObject);
             return;
+        }
+
+        public bool IsAnySpaceAvailable(PuzzleGenerator puzzle)
+        {
+            foreach(var pair in Coordinates)
+            {
+                if(IsAvailable(pair.Key , puzzle.Structure)) return true;
+            }
+
+            return true;
+        }
+        private bool IsAvailable(Vector2Int coord, IReadOnlyList<Vector2Int> puzzleCoord)
+        {
+            foreach (var itemCoord in puzzleCoord)
+            {
+                Vector2Int finalCoord = coord + itemCoord;
+                bool isCoordExist = Coordinates.ContainsKey(finalCoord);
+                bool isCoordFilled = FilledCoordinates.ContainsKey(finalCoord);
+                if (isCoordFilled || !isCoordExist)
+                {
+                    return false;
+                }
+            }
+
+            return true;
+        }
+
+
+        List<SquareGrid> clearedGrids = new List<SquareGrid>();
+
+        public int CheckComplete() 
+        {
+            int totalScore = 0;
+            clearedGrids.Clear();
+            for (int i = 0; i < boardSize.x; i++)
+            {
+                totalScore += CheckVertical(i, clearedGrids);
+            }
+
+            for (int i = 0; i < boardSize.y; i++)
+            {
+                totalScore += CheckHorizontal(i, clearedGrids);
+            }
+
+            Vector2Int squareSize = new Vector2Int(3 , 3);
+            for (int i = 0; i < squareSize.x; i++)
+            {
+                for (int j = 0; j < squareSize.y; j++)
+                {
+                    Vector2Int coord = new Vector2Int(i * squareSize.x, j * squareSize.y);
+                    totalScore += CheckSquare(coord, squareSize, clearedGrids);
+                }
+            }
+
+            DestroyGrids();
+
+            foreach (var item in clearedGrids)
+            {
+                FilledCoordinates.Remove(item.Coord);
+            }
+            clearedGrids.Clear();
+
+            return totalScore;
+        }
+
+        private async void DestroyGrids() 
+        {
+            var ongoingDestroy = new List<SquareGrid> (clearedGrids.Count);
+            ongoingDestroy.AddRange(clearedGrids);
+            for (int i = ongoingDestroy.Count - 1; i >= 0; i--)
+            {
+                ongoingDestroy[i].DestroySelf();
+                await Task.Delay(50);
+            }
+
+            ongoingDestroy.Clear();
+        }
+
+        private int CheckVertical(int column, List<SquareGrid> destroyList)
+        {
+            for(int i = 0; i < boardSize.y; i++) 
+            {
+                Vector2Int coord = new Vector2Int(column, i);
+                if(!FilledCoordinates.ContainsKey(coord)) 
+                {
+                    return 0;
+                }
+            }
+
+            for (int i = 0; i < boardSize.y; i++)
+            {
+                Vector2Int coord = new Vector2Int(column, i);
+                destroyList.Add(FilledCoordinates[coord]);
+            }
+
+            return boardSize.y;
+        }
+
+        private int CheckHorizontal(int row, List<SquareGrid> destroyList)
+        {
+            for (int i = 0; i < boardSize.x; i++)
+            {
+                Vector2Int coord = new Vector2Int(i, row);
+                if (!FilledCoordinates.ContainsKey(coord))
+                {
+                    return 0;
+                }
+            }
+
+            for (int i = 0; i < boardSize.x; i++)
+            {
+                Vector2Int coord = new Vector2Int(i, row);
+                destroyList.Add(FilledCoordinates[coord]);
+            }
+
+            return boardSize.x;
+        }
+
+        private int CheckSquare(Vector2Int startCoord, Vector2Int sizeSquare, List<SquareGrid> destroyList)
+        {
+            for (int i = 0; i < sizeSquare.y; i++)
+            {
+                for (int j = 0; j < sizeSquare.x; j++)
+                {
+                    var coord = startCoord + new Vector2Int(j , i);
+                    if (!FilledCoordinates.ContainsKey(coord))
+                    {
+                        return 0;
+                    }
+                }
+            }
+
+            for (int i = 0; i < sizeSquare.y; i++)
+            {
+                for (int j = 0; j < sizeSquare.x; j++)
+                {
+                    var coord = startCoord + new Vector2Int(j, i);
+                    destroyList.Add(FilledCoordinates[coord]);
+                }
+            }
+
+            return sizeSquare.x * sizeSquare.y;
         }
     }
 }

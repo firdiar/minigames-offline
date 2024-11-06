@@ -49,7 +49,7 @@ namespace BoardFit
             {
                 var worldPos = cameraRef.ScreenToWorldPoint(eventData.position);
                 worldPos.z = 0;
-                gameManager.TryPushPuzzle(worldPos, holdingPuzzle);
+                gameManager.TryPushPuzzleAsync(worldPos, holdingPuzzle);
             }
         }
 
