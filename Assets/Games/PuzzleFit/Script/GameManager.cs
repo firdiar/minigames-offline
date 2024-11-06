@@ -9,9 +9,13 @@ namespace BoardFit
     public class GameManager : MonoBehaviour
     {
         [SerializeField]
+        UIView uiView;
+        [SerializeField]
         Boards board;
         [SerializeField]
         PuzzleGenerator prefab;
+
+        int score;
 
         [SerializeField]
         public List<RectTransform> spawnPointScreen = new List<RectTransform>();
@@ -80,7 +84,12 @@ namespace BoardFit
                 if (item != null) puzzleCount++;
             }
 
-            board.CheckComplete();
+            var completeGrid = board.CheckComplete();
+            if(completeGrid > 0)
+            {
+                score += completeGrid;
+                uiView.SetScore(score);
+            }
 
             if (puzzleCount == 0)
             {
@@ -89,14 +98,17 @@ namespace BoardFit
             CheckGameOver();
         }
 
+        [Button]
         private void CheckGameOver() 
         {
             bool isGameOver = true;
+            
             foreach(var item in ActiveGenerator)
             {
                 if(item == null) continue;
 
-                if(board.IsAnySpaceAvailable(item))
+                Debug.Log("Check game over: "+ item);
+                if (board.IsAnySpaceAvailable(item))
                 {
                     isGameOver = false;
                     break;
@@ -104,9 +116,10 @@ namespace BoardFit
             }
 
             if (isGameOver)
-            { 
-                
+            {
+                uiView.ShowGameOver();
             }
         }
+
     }
 }

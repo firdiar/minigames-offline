@@ -134,11 +134,16 @@ namespace BoardFit
         {
             foreach(var pair in Coordinates)
             {
-                if(IsAvailable(pair.Key , puzzle.Structure)) return true;
+                if (IsAvailable(pair.Key, puzzle.Structure))
+                {
+                    Debug.Log("Space Available: " + pair.Key + " - " + puzzle.Structure);
+                    return true;
+                }
             }
 
-            return true;
+            return false;
         }
+
         private bool IsAvailable(Vector2Int coord, IReadOnlyList<Vector2Int> puzzleCoord)
         {
             foreach (var itemCoord in puzzleCoord)

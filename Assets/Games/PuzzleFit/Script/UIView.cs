@@ -1,16 +1,51 @@
+using System;
+using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
-public class UIView : MonoBehaviour
+namespace BoardFit
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public class UIView : MonoBehaviour
     {
-        
-    }
+        [SerializeField]
+        TextMeshProUGUI highscore;
+        [SerializeField]
+        TextMeshProUGUI nowScore;
+        [SerializeField]
+        Button restartButton;
+        [SerializeField]
+        GameObject gameOver;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        private void Start()
+        {
+            highscore.text = PlayerPrefs.GetInt("BoardFit-Highscore", 0).ToString();
+            nowScore.text = "0";
+            restartButton.onClick.AddListener(Restart);
+            gameOver.SetActive(false);
+            Debug.Log("Highscore: " + PlayerPrefs.GetInt("BoardFit-Highscore", 0));
+        }
+
+        private void Restart()
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+
+        public void ShowGameOver()
+        {
+            var nowScoreValue = int.Parse(nowScore.text);
+            if (nowScoreValue > PlayerPrefs.GetInt("BoardFit-Highscore", 0))
+            {
+                PlayerPrefs.SetInt("BoardFit-Highscore", nowScoreValue);
+            }
+
+            //do some ui animation
+            gameOver.SetActive(true);
+        }
+
+        public void SetScore(int score)
+        {
+            nowScore.text = score.ToString();
+        }
     }
 }
