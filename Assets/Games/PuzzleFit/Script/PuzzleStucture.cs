@@ -3,8 +3,8 @@ using UnityEngine;
 
 namespace BoardFit
 {
-    [CreateAssetMenu(fileName = "PizzleStucture_", menuName = "Scriptable Objects/BoardFit/PizzleStucture")]
-    public class PizzleStucture : ScriptableObject
+    [CreateAssetMenu(fileName = "PuzzleStucture_", menuName = "Scriptable Objects/BoardFit/PizzleStucture")]
+    public class PuzzleStucture : ScriptableObject
     {
         [SerializeField]
         public string StructureName;

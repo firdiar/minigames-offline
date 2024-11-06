@@ -9,6 +9,8 @@ namespace BoardFit
     public class Boards : MonoBehaviour
     {
         [SerializeField]
+        float hoverShadowDistance = 0.3f;
+        [SerializeField]
         public Vector2Int boardSize;
         [SerializeField]
         List<SquareGrid> boardGrid;
@@ -18,6 +20,9 @@ namespace BoardFit
         Dictionary<Vector2Int, SquareGrid> Coordinates = new Dictionary<Vector2Int, SquareGrid>();
         Dictionary<Vector2Int, SquareGrid> FilledCoordinates = new Dictionary<Vector2Int, SquareGrid>();
 
+        HashSet<SquareGrid> newShadow = new HashSet<SquareGrid>();
+        HashSet<SquareGrid> shadowCache = new HashSet<SquareGrid>();
+
         private void Start()
         {
             int counter = 0;
@@ -25,19 +30,75 @@ namespace BoardFit
             {
                 for (int j = 0; j < boardSize.x; j++)
                 {
-                    Coordinates.Add(new Vector2Int(j,i) , boardGrid[counter]);
+                    boardGrid[counter].Coord = new Vector2Int(j, i);
+                    Coordinates.Add(boardGrid[counter].Coord, boardGrid[counter]);
                     counter++;
                 }
             }
         }
 
-        private bool Hover(Vector2Int Coord)
+        public bool Hover(Vector2 Coord, IReadOnlyList<Vector2Int> coords, out Vector2Int targetCoords)
         {
-            return true;
+            targetCoords = Vector2Int.one * -1;
+            bool foundCoord = false;
+            float minDist = hoverShadowDistance;
+            foreach (var item in Coordinates)
+            {
+                float dist = Vector2.Distance(item.Value.transform.position, Coord);
+                if (dist < minDist)
+                {
+                    minDist = dist;
+                    foundCoord = true;
+                    targetCoords = item.Key;
+                    break;
+                }
+            }
+
+            if (foundCoord)
+            {
+                foreach (var item in coords)
+                {
+                    var finalCoord = item + targetCoords;
+                    if (!Coordinates.TryGetValue(finalCoord, out var grid) || FilledCoordinates.ContainsKey(finalCoord))
+                    {
+                        newShadow.Clear();
+                        RemoveAllShadow();
+                        return false;
+                    }
+                    newShadow.Add(grid);
+                }
+
+                RemoveAllShadow();
+                foreach (var item in newShadow)
+                {
+                    item.SetShadow(true);
+                }
+
+                var temp = shadowCache;
+                shadowCache = newShadow;
+                newShadow = temp;
+            }
+            else
+            {
+                newShadow.Clear();
+                RemoveAllShadow();
+            }
+            return foundCoord;
+        }
+
+        public void RemoveAllShadow() 
+        {
+            foreach (var item in shadowCache)
+            {
+                if (newShadow.Contains(item)) continue;
+
+                item.SetShadow(false);
+            }
+            shadowCache.Clear();
         }
 
         [Button]
-        private async void Apply(Vector2Int Coord, PuzzleGenerator puzzle)
+        public async void Apply(Vector2Int Coord, PuzzleGenerator puzzle)
         {
             foreach (var item in puzzle.Grids)
             {

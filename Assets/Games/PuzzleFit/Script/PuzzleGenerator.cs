@@ -17,7 +17,7 @@ namespace BoardFit
         float spacing = 1;
 
         [SerializeField]
-        PizzleStucture structure;
+        PuzzleStucture structure;
 
         public IReadOnlyList<Vector2Int> Structure => structure.Coords;
 
@@ -34,19 +34,51 @@ namespace BoardFit
 
         public IReadOnlyList<SquareGrid> Grids => grids;
 
+        [Button]
+        public void NormalMode()
+        {
+            SetScale(0.4f);
+            SetSpacing(0.4f);
+
+            foreach (var grid in grids)
+            {
+                grid.SetStyle(0);
+            }
+        }
 
         [Button]
-        public void MoveHover() 
+        public void AssignMode()
         {
-            scale = 0.7f;
-            Generate();
+            SetScale(0.95f);
+            SetSpacing(0.95f);
+
+            foreach (var grid in grids)
+            {
+                grid.SetStyle(0);
+            }
+        }
+
+        [Button]
+        public void HoverMode() 
+        {
+            SetScale(0.7f);
+            SetSpacing(1.1f);
+
             foreach (var grid in grids)
             {
                 grid.SetStyle(1);
             }
         }
 
-        public void Generate(PizzleStucture structure)
+        public void Generate(float scale, float space , PuzzleStucture structure)
+        {
+            this.scale = scale;
+            this.spacing = space;
+            this.structure = structure;
+            Generate();
+        }
+
+        public void Generate(PuzzleStucture structure)
         { 
             this.structure = structure;
             Generate();
