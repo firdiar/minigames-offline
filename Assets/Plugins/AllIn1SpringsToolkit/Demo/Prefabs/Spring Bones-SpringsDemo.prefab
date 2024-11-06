@@ -1,0 +1,5546 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1352118595239316099
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1839826130983505977}
+  - component: {fileID: 3325833055776530332}
+  - component: {fileID: 703490366763903830}
+  m_Layer: 0
+  m_Name: Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1839826130983505977
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352118595239316099}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: -1.5, z: 0}
+  m_LocalScale: {x: 1.5307908, y: 1.5307908, z: 1.5307908}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2153909134423966289}
+  - {fileID: 2162529792285371642}
+  - {fileID: 5921542060180898958}
+  - {fileID: 1278328856706954929}
+  - {fileID: 2162529791988104898}
+  - {fileID: 2162529791594763571}
+  - {fileID: 1841076792544466416}
+  m_Father: {fileID: 2162529792232882227}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3325833055776530332
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352118595239316099}
+  m_Mesh: {fileID: -5495902117074765545, guid: 9517c099f0b054641af3283965fab3a4, type: 3}
+--- !u!23 &703490366763903830
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352118595239316099}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b0b542e472e02f1469becebbb84853d7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &1634780683295463659
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2153909134423966289}
+  - component: {fileID: 3047779606074510836}
+  - component: {fileID: 986029033631299902}
+  - component: {fileID: 3047779606074510834}
+  - component: {fileID: 3047779606074510832}
+  m_Layer: 0
+  m_Name: ArmRight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2153909134423966289
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634780683295463659}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -1.0648091, y: 0.9798857, z: 0}
+  m_LocalScale: {x: 0.18997698, y: 0.18997698, z: 0.18997698}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2162529790750476673}
+  m_Father: {fileID: 1839826130983505977}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!33 &3047779606074510836
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634780683295463659}
+  m_Mesh: {fileID: -5495902117074765545, guid: 9517c099f0b054641af3283965fab3a4, type: 3}
+--- !u!23 &986029033631299902
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634780683295463659}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9ae110880e754d74d954615aa567ef82, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3047779606074510834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634780683295463659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8852d075a7b623247989dc959be9b6b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoUpdate: 0
+  autoInitialize: 1
+  transformToReactTo: {fileID: 1839826130983505977}
+  boneTransform: {fileID: 2153909134423966289}
+  transformSpringComponent: {fileID: 3047779606074510832}
+  movementInertiaEnabled: 1
+  movementInertia: 100
+--- !u!114 &3047779606074510832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634780683295463659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9f3b58cc7b7e9408ac5f31edd2d8b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doesAutoInitialize: 1
+  useScaledTime: 1
+  hasCustomInitialValues: 0
+  hasCustomTarget: 0
+  generalPropertiesUnfolded: 1
+  initialValuesUnfolded: 0
+  spaceType: 0
+  positionSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 150
+    unifiedDrag: 10
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 0
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 0
+  scaleSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 150
+    unifiedDrag: 10
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 0
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 0
+  rotationSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 50
+    unifiedDrag: 7
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 1
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 1
+  followerTransform: {fileID: 2153909134423966289}
+  useTransformAsTarget: 0
+  targetTransform: {fileID: 0}
+--- !u!1 &1778737681497423821
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5921542060180898958}
+  - component: {fileID: 8967820795838721549}
+  - component: {fileID: 8826425418625663563}
+  - component: {fileID: 8216067269968140497}
+  - component: {fileID: 8216067269968140498}
+  m_Layer: 0
+  m_Name: EyeLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5921542060180898958
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778737681497423821}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.213, y: 1.48, z: -0.944}
+  m_LocalScale: {x: 0.48689696, y: 0.4868969, z: 0.45845336}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 560012771526205910}
+  m_Father: {fileID: 1839826130983505977}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8967820795838721549
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778737681497423821}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &8826425418625663563
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778737681497423821}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 28cf4ada214678e46bcaec110c28a69b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8216067269968140497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778737681497423821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8852d075a7b623247989dc959be9b6b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoUpdate: 0
+  autoInitialize: 1
+  transformToReactTo: {fileID: 1839826130983505977}
+  boneTransform: {fileID: 5921542060180898958}
+  transformSpringComponent: {fileID: 8216067269968140498}
+  movementInertiaEnabled: 1
+  movementInertia: 100
+--- !u!114 &8216067269968140498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778737681497423821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9f3b58cc7b7e9408ac5f31edd2d8b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doesAutoInitialize: 1
+  useScaledTime: 1
+  hasCustomInitialValues: 0
+  hasCustomTarget: 0
+  generalPropertiesUnfolded: 1
+  initialValuesUnfolded: 0
+  spaceType: 0
+  positionSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 150
+    unifiedDrag: 10
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 0
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 0
+  scaleSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 150
+    unifiedDrag: 10
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 0
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 0
+  rotationSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 40
+    unifiedDrag: 7
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 1
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 1
+  followerTransform: {fileID: 5921542060180898958}
+  useTransformAsTarget: 0
+  targetTransform: {fileID: 0}
+--- !u!1 &2162529790518141334
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2162529790518141333}
+  - component: {fileID: 2162529790518141330}
+  - component: {fileID: 2162529790518141331}
+  - component: {fileID: 2162529790518141332}
+  m_Layer: 0
+  m_Name: IneerEar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2162529790518141333
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529790518141334}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.4298108}
+  m_LocalScale: {x: 0.70537, y: 0.70537, z: 0.70537}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2162529791594763571}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 23.807}
+--- !u!33 &2162529790518141330
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529790518141334}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &2162529790518141331
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529790518141334}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9ae110880e754d74d954615aa567ef82, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!135 &2162529790518141332
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529790518141334}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &2162529790663186060
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2162529790663186059}
+  - component: {fileID: 2162529790663186056}
+  - component: {fileID: 2162529790663186057}
+  - component: {fileID: 2162529790663186058}
+  m_Layer: 0
+  m_Name: Sphere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2162529790663186059
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529790663186060}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 3.5, z: 0}
+  m_LocalScale: {x: 2.2964, y: 2.2964, z: 2.2964}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2162529791385945534}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2162529790663186056
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529790663186060}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &2162529790663186057
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529790663186060}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b0b542e472e02f1469becebbb84853d7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!135 &2162529790663186058
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529790663186060}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &2162529790750476674
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2162529790750476673}
+  - component: {fileID: 2162529790750476685}
+  - component: {fileID: 2162529790750476686}
+  - component: {fileID: 2162529790750476687}
+  - component: {fileID: 2162529790750476684}
+  m_Layer: 0
+  m_Name: RoundedCube (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2162529790750476673
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529790750476674}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.1800005, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2162529790952799551}
+  m_Father: {fileID: 2153909134423966289}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!33 &2162529790750476685
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529790750476674}
+  m_Mesh: {fileID: -5495902117074765545, guid: 9517c099f0b054641af3283965fab3a4, type: 3}
+--- !u!23 &2162529790750476686
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529790750476674}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9ae110880e754d74d954615aa567ef82, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2162529790750476687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529790750476674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8852d075a7b623247989dc959be9b6b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoUpdate: 0
+  autoInitialize: 1
+  transformToReactTo: {fileID: 2153909134423966289}
+  boneTransform: {fileID: 2162529790750476673}
+  transformSpringComponent: {fileID: 2162529790750476684}
+  movementInertiaEnabled: 0
+  movementInertia: 100
+--- !u!114 &2162529790750476684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529790750476674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9f3b58cc7b7e9408ac5f31edd2d8b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doesAutoInitialize: 1
+  useScaledTime: 1
+  hasCustomInitialValues: 0
+  hasCustomTarget: 0
+  generalPropertiesUnfolded: 1
+  initialValuesUnfolded: 0
+  spaceType: 0
+  positionSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 150
+    unifiedDrag: 10
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 0
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 0
+  scaleSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 150
+    unifiedDrag: 10
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 0
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 0
+  rotationSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 50
+    unifiedDrag: 7
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 1
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 1
+  followerTransform: {fileID: 2153909134423966289}
+  useTransformAsTarget: 0
+  targetTransform: {fileID: 0}
+--- !u!1 &2162529790874919080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2162529790874919063}
+  - component: {fileID: 2162529790874919060}
+  - component: {fileID: 2162529790874919061}
+  - component: {fileID: 2162529790874919062}
+  m_Layer: 0
+  m_Name: InnerEar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2162529790874919063
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529790874919080}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.4298108}
+  m_LocalScale: {x: 0.70537, y: 0.70537, z: 0.70537}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2162529791988104898}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 23.807}
+--- !u!33 &2162529790874919060
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529790874919080}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &2162529790874919061
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529790874919080}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9ae110880e754d74d954615aa567ef82, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!135 &2162529790874919062
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529790874919080}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &2162529790946040094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2162529790946040093}
+  - component: {fileID: 2162529790946040090}
+  - component: {fileID: 2162529790946040091}
+  - component: {fileID: 2162529790946040092}
+  m_Layer: 0
+  m_Name: Sphere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2162529790946040093
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529790946040094}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 3.5, z: 0}
+  m_LocalScale: {x: 2.2964, y: 2.2964, z: 2.2964}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2162529791495054823}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2162529790946040090
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529790946040094}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &2162529790946040091
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529790946040094}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b0b542e472e02f1469becebbb84853d7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!135 &2162529790946040092
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529790946040094}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &2162529790952799536
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2162529790952799551}
+  - component: {fileID: 2162529790952799547}
+  - component: {fileID: 2162529790952799548}
+  - component: {fileID: 2162529790952799549}
+  - component: {fileID: 2162529790952799550}
+  m_Layer: 0
+  m_Name: RoundedCube (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2162529790952799551
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529790952799536}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.2500005, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2162529791385945534}
+  m_Father: {fileID: 2162529790750476673}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!33 &2162529790952799547
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529790952799536}
+  m_Mesh: {fileID: -5495902117074765545, guid: 9517c099f0b054641af3283965fab3a4, type: 3}
+--- !u!23 &2162529790952799548
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529790952799536}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9ae110880e754d74d954615aa567ef82, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2162529790952799549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529790952799536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8852d075a7b623247989dc959be9b6b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoUpdate: 0
+  autoInitialize: 1
+  transformToReactTo: {fileID: 2162529790750476673}
+  boneTransform: {fileID: 2162529790952799551}
+  transformSpringComponent: {fileID: 2162529790952799550}
+  movementInertiaEnabled: 0
+  movementInertia: 100
+--- !u!114 &2162529790952799550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529790952799536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9f3b58cc7b7e9408ac5f31edd2d8b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doesAutoInitialize: 1
+  useScaledTime: 1
+  hasCustomInitialValues: 0
+  hasCustomTarget: 0
+  generalPropertiesUnfolded: 1
+  initialValuesUnfolded: 0
+  spaceType: 0
+  positionSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 150
+    unifiedDrag: 10
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 0
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 0
+  scaleSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 150
+    unifiedDrag: 10
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 0
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 0
+  rotationSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 100
+    unifiedDrag: 7
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 1
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 1
+  followerTransform: {fileID: 2153909134423966289}
+  useTransformAsTarget: 0
+  targetTransform: {fileID: 0}
+--- !u!1 &2162529791019544629
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2162529791019544628}
+  - component: {fileID: 2162529791019544624}
+  - component: {fileID: 2162529791019544625}
+  - component: {fileID: 2162529791019544626}
+  - component: {fileID: 2162529791019544627}
+  m_Layer: 0
+  m_Name: RoundedCube (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2162529791019544628
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529791019544629}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.2500005, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2162529791495054823}
+  m_Father: {fileID: 2162529791847960900}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!33 &2162529791019544624
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529791019544629}
+  m_Mesh: {fileID: -5495902117074765545, guid: 9517c099f0b054641af3283965fab3a4, type: 3}
+--- !u!23 &2162529791019544625
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529791019544629}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9ae110880e754d74d954615aa567ef82, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2162529791019544626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529791019544629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8852d075a7b623247989dc959be9b6b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoUpdate: 0
+  autoInitialize: 1
+  transformToReactTo: {fileID: 2162529791847960900}
+  boneTransform: {fileID: 2162529791019544628}
+  transformSpringComponent: {fileID: 2162529791019544627}
+  movementInertiaEnabled: 0
+  movementInertia: 100
+--- !u!114 &2162529791019544627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529791019544629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9f3b58cc7b7e9408ac5f31edd2d8b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doesAutoInitialize: 1
+  useScaledTime: 1
+  hasCustomInitialValues: 0
+  hasCustomTarget: 0
+  generalPropertiesUnfolded: 1
+  initialValuesUnfolded: 0
+  spaceType: 0
+  positionSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 150
+    unifiedDrag: 10
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 0
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 0
+  scaleSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 150
+    unifiedDrag: 10
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 0
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 0
+  rotationSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 100
+    unifiedDrag: 7
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 1
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 1
+  followerTransform: {fileID: 2162529792285371642}
+  useTransformAsTarget: 0
+  targetTransform: {fileID: 0}
+--- !u!1 &2162529791385945535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2162529791385945534}
+  - component: {fileID: 2162529791385945530}
+  - component: {fileID: 2162529791385945531}
+  - component: {fileID: 2162529791385945532}
+  - component: {fileID: 2162529791385945533}
+  m_Layer: 0
+  m_Name: RoundedCube (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2162529791385945534
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529791385945535}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.270001, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2162529790663186059}
+  m_Father: {fileID: 2162529790952799551}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!33 &2162529791385945530
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529791385945535}
+  m_Mesh: {fileID: -5495902117074765545, guid: 9517c099f0b054641af3283965fab3a4, type: 3}
+--- !u!23 &2162529791385945531
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529791385945535}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9ae110880e754d74d954615aa567ef82, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2162529791385945532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529791385945535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8852d075a7b623247989dc959be9b6b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoUpdate: 0
+  autoInitialize: 1
+  transformToReactTo: {fileID: 2162529790952799551}
+  boneTransform: {fileID: 2162529791385945534}
+  transformSpringComponent: {fileID: 2162529791385945533}
+  movementInertiaEnabled: 0
+  movementInertia: 100
+--- !u!114 &2162529791385945533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529791385945535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9f3b58cc7b7e9408ac5f31edd2d8b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doesAutoInitialize: 1
+  useScaledTime: 1
+  hasCustomInitialValues: 0
+  hasCustomTarget: 0
+  generalPropertiesUnfolded: 1
+  initialValuesUnfolded: 0
+  spaceType: 0
+  positionSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 150
+    unifiedDrag: 10
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 0
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 0
+  scaleSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 150
+    unifiedDrag: 10
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 0
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 0
+  rotationSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 100
+    unifiedDrag: 7
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 1
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 1
+  followerTransform: {fileID: 2153909134423966289}
+  useTransformAsTarget: 0
+  targetTransform: {fileID: 0}
+--- !u!1 &2162529791495054840
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2162529791495054823}
+  - component: {fileID: 2162529791495054819}
+  - component: {fileID: 2162529791495054820}
+  - component: {fileID: 2162529791495054821}
+  - component: {fileID: 2162529791495054822}
+  m_Layer: 0
+  m_Name: RoundedCube (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2162529791495054823
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529791495054840}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.270001, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2162529790946040093}
+  m_Father: {fileID: 2162529791019544628}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!33 &2162529791495054819
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529791495054840}
+  m_Mesh: {fileID: -5495902117074765545, guid: 9517c099f0b054641af3283965fab3a4, type: 3}
+--- !u!23 &2162529791495054820
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529791495054840}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9ae110880e754d74d954615aa567ef82, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2162529791495054821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529791495054840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8852d075a7b623247989dc959be9b6b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoUpdate: 0
+  autoInitialize: 1
+  transformToReactTo: {fileID: 2162529791019544628}
+  boneTransform: {fileID: 2162529791495054823}
+  transformSpringComponent: {fileID: 2162529791495054822}
+  movementInertiaEnabled: 0
+  movementInertia: 100
+--- !u!114 &2162529791495054822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529791495054840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9f3b58cc7b7e9408ac5f31edd2d8b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doesAutoInitialize: 1
+  useScaledTime: 1
+  hasCustomInitialValues: 0
+  hasCustomTarget: 0
+  generalPropertiesUnfolded: 1
+  initialValuesUnfolded: 0
+  spaceType: 0
+  positionSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 150
+    unifiedDrag: 10
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 0
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 0
+  scaleSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 150
+    unifiedDrag: 10
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 0
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 0
+  rotationSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 100
+    unifiedDrag: 7
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 1
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 1
+  followerTransform: {fileID: 2162529792285371642}
+  useTransformAsTarget: 0
+  targetTransform: {fileID: 0}
+--- !u!1 &2162529791594763572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2162529791594763571}
+  - component: {fileID: 2162529791594763568}
+  - component: {fileID: 2162529791594763569}
+  - component: {fileID: 2162529791594763583}
+  - component: {fileID: 2162529791594763582}
+  m_Layer: 0
+  m_Name: EarRight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2162529791594763571
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529791594763572}
+  m_LocalRotation: {x: -0, y: -0, z: -0.20626383, w: 0.9784965}
+  m_LocalPosition: {x: 0.37758264, y: 2.0538404, z: 0}
+  m_LocalScale: {x: 0.52090675, y: 1.5841593, z: 0.17326534}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2162529790518141333}
+  m_Father: {fileID: 1839826130983505977}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -23.807}
+--- !u!33 &2162529791594763568
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529791594763572}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &2162529791594763569
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529791594763572}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b0b542e472e02f1469becebbb84853d7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2162529791594763583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529791594763572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8852d075a7b623247989dc959be9b6b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoUpdate: 0
+  autoInitialize: 1
+  transformToReactTo: {fileID: 1839826130983505977}
+  boneTransform: {fileID: 2162529791594763571}
+  transformSpringComponent: {fileID: 2162529791594763582}
+  movementInertiaEnabled: 1
+  movementInertia: 100
+--- !u!114 &2162529791594763582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529791594763572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9f3b58cc7b7e9408ac5f31edd2d8b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doesAutoInitialize: 1
+  useScaledTime: 1
+  hasCustomInitialValues: 0
+  hasCustomTarget: 0
+  generalPropertiesUnfolded: 1
+  initialValuesUnfolded: 0
+  spaceType: 0
+  positionSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 150
+    unifiedDrag: 10
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 0
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 0
+  scaleSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 150
+    unifiedDrag: 10
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 0
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 0
+  rotationSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 50
+    unifiedDrag: 7
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 1
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 1
+  followerTransform: {fileID: 2162529791594763571}
+  useTransformAsTarget: 0
+  targetTransform: {fileID: 0}
+--- !u!1 &2162529791847960901
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2162529791847960900}
+  - component: {fileID: 2162529791847960911}
+  - component: {fileID: 2162529791847960896}
+  - component: {fileID: 2162529791847960897}
+  - component: {fileID: 2162529791847960899}
+  m_Layer: 0
+  m_Name: RoundedCube (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2162529791847960900
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529791847960901}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.1800005, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2162529791019544628}
+  m_Father: {fileID: 2162529792285371642}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!33 &2162529791847960911
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529791847960901}
+  m_Mesh: {fileID: -5495902117074765545, guid: 9517c099f0b054641af3283965fab3a4, type: 3}
+--- !u!23 &2162529791847960896
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529791847960901}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9ae110880e754d74d954615aa567ef82, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2162529791847960897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529791847960901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8852d075a7b623247989dc959be9b6b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoUpdate: 0
+  autoInitialize: 1
+  transformToReactTo: {fileID: 2162529792285371642}
+  boneTransform: {fileID: 2162529791847960900}
+  transformSpringComponent: {fileID: 2162529791847960899}
+  movementInertiaEnabled: 0
+  movementInertia: 100
+--- !u!114 &2162529791847960899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529791847960901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9f3b58cc7b7e9408ac5f31edd2d8b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doesAutoInitialize: 1
+  useScaledTime: 1
+  hasCustomInitialValues: 0
+  hasCustomTarget: 0
+  generalPropertiesUnfolded: 1
+  initialValuesUnfolded: 0
+  spaceType: 0
+  positionSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 150
+    unifiedDrag: 10
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 0
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 0
+  scaleSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 150
+    unifiedDrag: 10
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 0
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 0
+  rotationSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 50
+    unifiedDrag: 7
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 1
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 1
+  followerTransform: {fileID: 2162529792285371642}
+  useTransformAsTarget: 0
+  targetTransform: {fileID: 0}
+--- !u!1 &2162529791988104899
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2162529791988104898}
+  - component: {fileID: 2162529791988104911}
+  - component: {fileID: 2162529791988104896}
+  - component: {fileID: 2162529791988104910}
+  - component: {fileID: 2162529791988104909}
+  m_Layer: 0
+  m_Name: EarLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2162529791988104898
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529791988104899}
+  m_LocalRotation: {x: -0, y: -0, z: 0.20626293, w: 0.9784966}
+  m_LocalPosition: {x: -0.5382839, y: 2.0538404, z: 0}
+  m_LocalScale: {x: 0.52090675, y: 1.5841593, z: 0.17326534}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2162529790874919063}
+  m_Father: {fileID: 1839826130983505977}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 23.807}
+--- !u!33 &2162529791988104911
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529791988104899}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &2162529791988104896
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529791988104899}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b0b542e472e02f1469becebbb84853d7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2162529791988104910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529791988104899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8852d075a7b623247989dc959be9b6b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoUpdate: 0
+  autoInitialize: 1
+  transformToReactTo: {fileID: 1839826130983505977}
+  boneTransform: {fileID: 2162529791988104898}
+  transformSpringComponent: {fileID: 2162529791988104909}
+  movementInertiaEnabled: 1
+  movementInertia: 100
+--- !u!114 &2162529791988104909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529791988104899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9f3b58cc7b7e9408ac5f31edd2d8b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doesAutoInitialize: 1
+  useScaledTime: 1
+  hasCustomInitialValues: 0
+  hasCustomTarget: 0
+  generalPropertiesUnfolded: 1
+  initialValuesUnfolded: 0
+  spaceType: 0
+  positionSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 150
+    unifiedDrag: 10
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 0
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 0
+  scaleSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 150
+    unifiedDrag: 10
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 0
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 0
+  rotationSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 50
+    unifiedDrag: 7
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 1
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 1
+  followerTransform: {fileID: 2162529791988104898}
+  useTransformAsTarget: 0
+  targetTransform: {fileID: 0}
+--- !u!1 &2162529792232882228
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2162529792232882227}
+  - component: {fileID: 2162529792232882226}
+  m_Layer: 0
+  m_Name: CreatureParent
+  m_TagString: Untagged
+  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2162529792232882227
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529792232882228}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1839826130983505977}
+  m_Father: {fileID: 7528994326869498430}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2162529792232882226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529792232882228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bfeade9cbcc7c44fbacd90a2b54f773, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bonesToUpdate:
+  - {fileID: 3047779606074510834}
+  - {fileID: 2162529790750476687}
+  - {fileID: 2162529790952799549}
+  - {fileID: 2162529791385945532}
+  - {fileID: 2162529792285371623}
+  - {fileID: 2162529791847960897}
+  - {fileID: 2162529791019544626}
+  - {fileID: 2162529791495054821}
+  - {fileID: 8216067269968140497}
+  - {fileID: 8888291869699290897}
+  - {fileID: 2162529791988104910}
+  - {fileID: 2162529791594763583}
+--- !u!1 &2162529792285371643
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2162529792285371642}
+  - component: {fileID: 2162529792285371621}
+  - component: {fileID: 2162529792285371622}
+  - component: {fileID: 2162529792285371623}
+  - component: {fileID: 2162529792285371641}
+  m_Layer: 0
+  m_Name: ArmLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2162529792285371642
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529792285371643}
+  m_LocalRotation: {x: 0.7071068, y: 0.7071068, z: 0, w: 0}
+  m_LocalPosition: {x: 1.064809, y: 0.98, z: 0}
+  m_LocalScale: {x: 0.18997698, y: 0.18997698, z: 0.18997698}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2162529791847960900}
+  m_Father: {fileID: 1839826130983505977}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 90}
+--- !u!33 &2162529792285371621
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529792285371643}
+  m_Mesh: {fileID: -5495902117074765545, guid: 9517c099f0b054641af3283965fab3a4, type: 3}
+--- !u!23 &2162529792285371622
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529792285371643}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9ae110880e754d74d954615aa567ef82, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2162529792285371623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529792285371643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8852d075a7b623247989dc959be9b6b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoUpdate: 0
+  autoInitialize: 1
+  transformToReactTo: {fileID: 1839826130983505977}
+  boneTransform: {fileID: 2162529792285371642}
+  transformSpringComponent: {fileID: 2162529792285371641}
+  movementInertiaEnabled: 1
+  movementInertia: 100
+--- !u!114 &2162529792285371641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2162529792285371643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9f3b58cc7b7e9408ac5f31edd2d8b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doesAutoInitialize: 1
+  useScaledTime: 1
+  hasCustomInitialValues: 0
+  hasCustomTarget: 0
+  generalPropertiesUnfolded: 1
+  initialValuesUnfolded: 0
+  spaceType: 0
+  positionSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 150
+    unifiedDrag: 10
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 0
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 0
+  scaleSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 150
+    unifiedDrag: 10
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 0
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 0
+  rotationSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 50
+    unifiedDrag: 7
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 1
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 1
+  followerTransform: {fileID: 2162529792285371642}
+  useTransformAsTarget: 0
+  targetTransform: {fileID: 0}
+--- !u!1 &4382320461534050637
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1841076792544466416}
+  - component: {fileID: 9177719613241631474}
+  - component: {fileID: 8790043285464621128}
+  m_Layer: 0
+  m_Name: Mouth
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1841076792544466416
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4382320461534050637}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.245, z: -1.034}
+  m_LocalScale: {x: 0.7563265, y: 0.7563265, z: 0.7563265}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1839826130983505977}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &9177719613241631474
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4382320461534050637}
+  m_Mesh: {fileID: -6452022535518236511, guid: 32973812a552c5a4b83eda278a96731f, type: 3}
+--- !u!23 &8790043285464621128
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4382320461534050637}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9ae110880e754d74d954615aa567ef82, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &4993699571090615206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1278328856706954929}
+  - component: {fileID: 8888291869699290898}
+  - component: {fileID: 2955770752209549600}
+  - component: {fileID: 8888291869699290897}
+  - component: {fileID: 8888291869699290896}
+  m_Layer: 0
+  m_Name: EyeRight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1278328856706954929
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4993699571090615206}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.173, y: 1.48, z: -0.944}
+  m_LocalScale: {x: 0.48689696, y: 0.4868969, z: 0.45845336}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8374639518362217538}
+  m_Father: {fileID: 1839826130983505977}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8888291869699290898
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4993699571090615206}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &2955770752209549600
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4993699571090615206}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 28cf4ada214678e46bcaec110c28a69b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8888291869699290897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4993699571090615206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8852d075a7b623247989dc959be9b6b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoUpdate: 0
+  autoInitialize: 1
+  transformToReactTo: {fileID: 1839826130983505977}
+  boneTransform: {fileID: 1278328856706954929}
+  transformSpringComponent: {fileID: 8888291869699290896}
+  movementInertiaEnabled: 1
+  movementInertia: 100
+--- !u!114 &8888291869699290896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4993699571090615206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9f3b58cc7b7e9408ac5f31edd2d8b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doesAutoInitialize: 1
+  useScaledTime: 1
+  hasCustomInitialValues: 0
+  hasCustomTarget: 0
+  generalPropertiesUnfolded: 1
+  initialValuesUnfolded: 0
+  spaceType: 0
+  positionSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 150
+    unifiedDrag: 10
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 0
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 0
+  scaleSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 150
+    unifiedDrag: 10
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 0
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 0
+  rotationSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 40
+    unifiedDrag: 7
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 1
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 150
+      drag: 10
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 1
+  followerTransform: {fileID: 1278328856706954929}
+  useTransformAsTarget: 0
+  targetTransform: {fileID: 0}
+--- !u!1 &6379625842277274778
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8374639518362217538}
+  - component: {fileID: 2828803147352297430}
+  - component: {fileID: 8471048270894159891}
+  m_Layer: 0
+  m_Name: Black
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8374639518362217538
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6379625842277274778}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.04}
+  m_LocalScale: {x: 0.5058835, y: 0.5058835, z: 0.9919304}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1278328856706954929}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2828803147352297430
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6379625842277274778}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &8471048270894159891
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6379625842277274778}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5fcfcb2bbaa5af2429c7bb6bcd942ec1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &7505591024661683986
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 560012771526205910}
+  - component: {fileID: 8671176123480186160}
+  - component: {fileID: 7957200320285222299}
+  m_Layer: 0
+  m_Name: Black
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &560012771526205910
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7505591024661683986}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.04}
+  m_LocalScale: {x: 0.5058835, y: 0.5058835, z: 0.9919304}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5921542060180898958}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8671176123480186160
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7505591024661683986}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &7957200320285222299
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7505591024661683986}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5fcfcb2bbaa5af2429c7bb6bcd942ec1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &7528994326869498401
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7528994326869498430}
+  - component: {fileID: 7528994326869498400}
+  - component: {fileID: 9165125781013839564}
+  m_Layer: 0
+  m_Name: Spring Bones-SpringsDemo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7528994326869498430
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7528994326869498401}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2162529792232882227}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7528994326869498400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7528994326869498401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc9b0239081104d478e029f9acd9961f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstSelectedUiElement: {fileID: 0}
+  buttonsCanvasGroup: {fileID: 0}
+  parentTransform: {fileID: 2162529792232882227}
+  verticalMoveSpeed: 5
+  rotateZMoveSpeed: 5
+  rotateYMoveSpeed: 5
+  movementAmplitude: 0.6
+  rotationAmplitude: 45
+--- !u!114 &9165125781013839564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7528994326869498401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9f3b58cc7b7e9408ac5f31edd2d8b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doesAutoInitialize: 1
+  useScaledTime: 1
+  hasCustomInitialValues: 0
+  hasCustomTarget: 0
+  generalPropertiesUnfolded: 0
+  initialValuesUnfolded: 0
+  spaceType: 0
+  positionSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 150
+    unifiedDrag: 17
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 1
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 200
+      drag: 50
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 200
+      drag: 50
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 200
+      drag: 50
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 1
+  scaleSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 120
+    unifiedDrag: 8
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 0
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 200
+      drag: 50
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 200
+      drag: 50
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 200
+      drag: 50
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 0
+  rotationSpring:
+    unifiedForceAndDrag: 1
+    unifiedForce: 150
+    unifiedDrag: 10
+    useInitialValues: 0
+    useCustomTarget: 0
+    springEnabled: 0
+    clampingEnabled: 0
+    springValues:
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 200
+      drag: 50
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 200
+      drag: 50
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 200
+      drag: 50
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 200
+      drag: 50
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 200
+      drag: 50
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 200
+      drag: 50
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 200
+      drag: 50
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 200
+      drag: 50
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    - clampTarget: 0
+      clampCurrentValue: 0
+      stopSpringOnCurrentValueClamp: 0
+      minValue: 0
+      maxValue: 100
+      update: 1
+      force: 200
+      drag: 50
+      target: 0
+      currentValue: 0
+      candidateValue: 0
+      velocity: 0
+      clamped: 0
+      operationValue: 0
+    showDebugFields: 0
+    unfolded: 0
+  followerTransform: {fileID: 7528994326869498430}
+  useTransformAsTarget: 0
+  targetTransform: {fileID: 0}
